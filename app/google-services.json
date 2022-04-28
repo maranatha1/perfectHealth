@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330477865385",
+    "project_id": "perfect-health-a0493",
+    "storage_bucket": "perfect-health-a0493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330477865385:android:2b2157e3ddcb4e41199cb8",
+        "android_client_info": {
+          "package_name": "com.example.perfecthealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330477865385-v6u63vj9nnmqe3o0suuqta8r3pirfjj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhuuctWM6L-MOdnhYdkxzCXoKpZoEUs_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330477865385-v6u63vj9nnmqe3o0suuqta8r3pirfjj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

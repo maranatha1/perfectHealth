@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".WorkoutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Warm Up"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gif1"
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                custom:gif="@mipmap/workout" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="60 seconds Jumping jakcs"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Leg and Butt workout"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gif2"
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                custom:gif="@mipmap/fitness" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="30 seconds for each workwout"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Abs"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gif3"
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                custom:gif="@mipmap/abs" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="40 seconds Crunches"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Leg exercise"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gif4"
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                custom:gif="@mipmap/lunge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="40 seconds Lunges"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Squat exercise"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gif5"
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                custom:gif="@mipmap/squat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="60 seconds Squats"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Stretching"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gif7"
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                custom:gif="@mipmap/streach" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="It is important that you stretch before and after you workout."
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

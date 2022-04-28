@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Day3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Breakfast"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="144dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/oatmeal2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Oatmeal and berries"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Lunch"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="135dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/toast" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Avocado Toast with Egss and Tomato)."
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Snack"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/popcorns" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Pop-Corns"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Dinner"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/meatballs"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text=" Noodles and Meatballs)"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Smoothie"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/smoothiie"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="smoothie "
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Water"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/water"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Drinking water is important during weight loss because it provides hydration without unwanted calories. You must make sure that you drink 2l a day."
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Day1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Breakfast"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="144dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/oatmeal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Oatmeal and berries"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Lunch"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="135dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/lunch" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Chicken breast salad(there are no specific incredients, you can work around with what you have. But make sure you reduce fat)."
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Snack"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Sliced bananas,Almonds,Strawberries and naartjies"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Dinner"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/prepp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text=" Rice,Chicken breast and steamed Broccoli(It does not have to be specifically you substitute with other veggies of pasta)"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Smoothie"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/smoothie"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="You can have your smoothie as a snack or breakfast. You play around with your fruit and vegies "
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#acacac"
+                android:gravity="center"
+                android:text="Water"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="296dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/water"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:text="Drinking water is important during weight loss because it provides hydration without unwanted calories. You must make sure that you drink 2l a day."
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

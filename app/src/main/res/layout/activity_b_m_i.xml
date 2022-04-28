@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/home_background"
+    tools:context=".BMI">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textColor="@color/grey_60"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/kilos"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:textSize="25sp"
+            android:textColor="@color/grey_60"
+            android:hint="KG"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textColor="@color/grey_60"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/centimeters"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:textSize="25sp"
+            android:textColor="@color/grey_60"
+            android:hint="cm"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"/>
+
+    </LinearLayout>
+
+    <!--    <Button-->
+<!--        android:id="@+id/btnCalc"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/buttons"-->
+<!--        android:text="Calculate"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold" />-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCalc"
+        style="@style/loginButton"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="@string/Calculate"
+        android:textSize="20sp"
+        app:strokeColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter details"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/totalBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="BMI ="
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSave"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/buttons"-->
+<!--        android:text="Restart"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSave"
+        style="@style/loginButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="@string/Restart"
+        android:textSize="20sp"
+        app:strokeColor="@color/loginBkColor" />
+
+</LinearLayout>
